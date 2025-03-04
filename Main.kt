@@ -1,7 +1,5 @@
 import java.util.Scanner
-
 // Code by mrherbat (MyconPL on GitHub)
-
 var value: Float = 0f
 var transactionType: Int = 0
 
