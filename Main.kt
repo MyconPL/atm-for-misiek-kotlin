@@ -4,7 +4,7 @@ import java.util.Scanner
 var value: Float = 0f
 var transactionType: Int = 0
 
-fun transaction_types() {
+fun display_transaction_types() {
     println("\nSelect transaction type:")
     println("1. Deposit")
     println("2. Withdraw")
@@ -53,7 +53,7 @@ fun main() {
     tomek.setAccountBalance(300f) // bieda bo studia
 
     do {
-        transaction_types()
+        display_transaction_types()
         print("Type: ")
         transactionType = scanner.nextInt()
 
